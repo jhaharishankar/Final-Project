@@ -1,0 +1,49 @@
+/* nav bar start */
+.weblogo {
+    width: 65px;
+}
+
+.navbar {
+    background: #AFD3E2 !important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #F6F1F1 !important;
+    font-weight: 600;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.navbar-nav li a:hover {
+    background: #146C94;
+}
+
+.moblogo {
+    display: none;
+}
+
+/* nav bar end */
+
+/* Media Query */
+@media(max-width:768px) {
+    .moblogo {
+        display: block;
+    }
+
+    .weblogo {
+        display: none;
+    }
+
+    .navbar {
+        background: #AFD3E2 !important;
+    }
+
+    .head-img {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
