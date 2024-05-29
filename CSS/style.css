@@ -13,9 +13,9 @@
 
 .navbar-nav li a {
     color: #F6F1F1 !important;
-    font-weight: 600;
-    font-size: 15px;
-    font-weight: lighter;
+    /* font-weight: 600; */
+    font-size: 20px;
+    font-weight: light;
 }
 
 .navbar-nav li a:hover {
@@ -27,6 +27,24 @@
 }
 
 /* nav bar end */
+
+/* footer start */
+.footer-para {
+    line-height: 30px;
+    word-spacing: 1px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.icons{
+    opacity: 0.5;
+}
+
+.icons:hover{
+    opacity: 1;
+}
+
+/* footer start */
 
 /* Media Query */
 @media(max-width:768px) {
