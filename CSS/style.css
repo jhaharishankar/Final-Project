@@ -44,7 +44,26 @@
     opacity: 1;
 }
 
-/* footer start */
+/* footer end */
+
+/* contact start */
+.cntbg{
+    background-image: url(../Image/contactbg.webp);
+}
+
+.contact-card{
+    box-shadow: 1px 1px 12px #020001;
+}
+
+.cntlbl label{
+    color: #19A7CE;
+}
+
+.keep{
+    color: white;
+    font-weight: 400;
+}
+/* contact end */
 
 /* Media Query */
 @media(max-width:768px) {
