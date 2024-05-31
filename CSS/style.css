@@ -1,3 +1,8 @@
+* {
+    font-family: prague;
+
+}
+
 /* nav bar start */
 .weblogo {
     width: 65px;
@@ -36,34 +41,93 @@
     color: aliceblue;
 }
 
-.icons{
+.icons {
     opacity: 0.5;
 }
 
-.icons:hover{
+.icons:hover {
     opacity: 1;
 }
 
 /* footer end */
 
 /* contact start */
-.cntbg{
+.cntbg {
     background-image: url(../Image/contactbg.webp);
-}
-
-.contact-card{
+    height: 80%;
     box-shadow: 1px 1px 12px #020001;
 }
 
-.cntlbl label{
+.contact-card {
+    box-shadow: 1px 1px 12px #020001;
+}
+
+.cntlbl label {
     color: #19A7CE;
 }
 
-.keep{
+.keep {
     color: white;
     font-weight: 400;
 }
+
 /* contact end */
+
+/* carrer start */
+.carrerbg {
+    background-image: url(../Image/carrerbg.jpg);
+    width: 100%;
+    height: 750px;
+    background-position: center;
+    background-size: cover;
+}
+
+.carrerfnt {
+    padding-top: 400px;
+}
+
+.carrerfnt h1 {
+    font-size: 1.5cm;
+    margin-top: 4cm;
+}
+
+.carrer-content {
+    background: linear-gradient(90deg, #1f3467, #008ad4 70%);
+    color: #1f3467;
+    width: 50%;
+}
+
+.carrer-card{
+    box-shadow: 1px 1px 12px #020001;
+}
+
+.carrer-content +p{
+    text-align: center;
+    color: #141414;
+    font-size: 18px;
+    /* font-weight: bold; */
+    letter-spacing: 0;
+    line-height: 1.6;
+}
+
+.carrer-card h5 {
+    text-align: center;
+    color: #141414;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1.6;
+}
+
+.carrer-content p {
+    color: #141414;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.6;
+}
+
+/* carrer end */
 
 /* Media Query */
 @media(max-width:768px) {
