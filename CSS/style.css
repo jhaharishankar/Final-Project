@@ -50,6 +50,57 @@
 
 /* footer end */
 
+/* IT start */
+
+.itbg {
+    background-image: url(../Image/IT.webp);
+    width: 100%;
+    height: 750px;
+    background-position: center;
+    background-size: cover;
+}
+
+.itfnt {
+    padding-top: 250px;
+}
+
+.itfnt h1 {
+    font-size: 1.5cm;
+    margin-top: 4cm;
+}
+
+.itcnt h2,h3{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+}
+
+.itcnt p{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.6;
+}
+
+.itcnt button{
+    margin-top: 50px;
+    background: linear-gradient(88.89deg, #008ad4 10.61%, #00d1ff 64.08%);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.it-img{
+    box-sizing: border-box;
+    border-radius: .5rem;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+/* IT end */
+
 /* About start */
 .aboutbg{
     background-image: url(../Image/about.webp);
