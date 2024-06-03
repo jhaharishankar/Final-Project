@@ -1,5 +1,6 @@
 * {
     font-family: prague;
+    /* overflow-x: hidden; */
 }
 
 /* nav bar start */
@@ -50,6 +51,97 @@
 
 /* footer end */
 
+/* index start */
+/* .sldrcap{
+    position: absolute;
+    bottom: 250px;
+}
+*/
+
+.home h2 {
+    letter-spacing: 3px;
+    font-family: prague;
+    color: #000;
+}
+
+.home p {
+    color: black;
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+    font-family: IBM Plex Sans, sans-serif;
+}
+
+.index1 {
+    width: 70%;
+    border-radius: 10px;
+    height: 80%;
+    margin-left: 90px;
+}
+
+.index-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f3467;
+    color: #fff;
+    height: 400px;
+    /* gap: 40px; */
+    font-family: IBM Plex Sans, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.index2 {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #1296cf;
+}
+
+.index-content2 {
+    background: linear-gradient(0deg, hsla(0, 0%, 8%, .2), hsla(0, 0%, 8%, .2)), linear-gradient(0deg, hsla(0, 0%, 8%, .2), hsla(0, 0%, 8%, .2)), linear-gradient(90deg, #4850a2 1.8%, #df01e1 50.24%, #b3529f 96.79%);
+    height: 700px;
+}
+
+.index-content2 h3, h2, p{
+    padding-top: 10px;
+    color: white;
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+    font-family: IBM Plex Sans, sans-serif;
+}
+
+.index-btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid #000;
+}
+
+.index-content2 button:hover{
+    background: #00d1ff;
+}
+
+.index-card-para{
+    color: #141414;
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.6;
+    margin-bottom: 100px;
+    /* text-align: start; */
+}
+/* index end */
+
 /* IT start */
 
 .itbg {
@@ -69,28 +161,34 @@
     margin-top: 4cm;
 }
 
-.itcnt h2,h3{
+.itcnt {
+    margin-left: 90px;
+}
+
+.itcnt h2,
+h3 {
     line-height: 35px;
     letter-spacing: 1px;
     word-spacing: 1px;
     padding-right: 5px;
 }
 
-.itcnt p{
+.itcnt p {
+    color: #000;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0;
     line-height: 1.6;
 }
 
-.itcnt button{
+.itcnt button {
     margin-top: 50px;
     background: linear-gradient(88.89deg, #008ad4 10.61%, #00d1ff 64.08%);
     font-size: 1rem;
     font-weight: 700;
 }
 
-.it-img{
+.it-img {
     box-sizing: border-box;
     border-radius: .5rem;
     height: 100%;
@@ -102,7 +200,7 @@
 /* IT end */
 
 /* About start */
-.aboutbg{
+.aboutbg {
     background-image: url(../Image/about.webp);
     width: 100%;
     height: 750px;
@@ -110,7 +208,7 @@
     background-size: cover;
 }
 
-.aboutfnt{
+.aboutfnt {
     padding-top: 400px;
     font-size: 18px;
     font-weight: 400;
@@ -118,7 +216,8 @@
     line-height: 1.6;
 }
 
-.about-para{
+.about-para {
+    color: #000;
     line-height: 35px;
     letter-spacing: 1px;
     word-spacing: 1px;
@@ -126,7 +225,7 @@
     text-align: justify;
 }
 
-.aboutbg2{
+.aboutbg2 {
     background-image: url(../Image/about2.webp);
     width: 100%;
     height: 750px;
@@ -134,7 +233,7 @@
     background-size: cover;
 }
 
-.abtcont h1{
+.abtcont h1 {
     margin-top: 300px;
     line-height: 35px;
     letter-spacing: 1px;
@@ -143,7 +242,7 @@
     color: #1296cf;
 }
 
-.abtcont p{
+.abtcont p {
     line-height: 40px;
     letter-spacing: 1px;
     word-spacing: 1px;
@@ -154,6 +253,7 @@
     padding-bottom: 2cm;
     color: #020001;
 }
+
 /* About end */
 
 /* contact start */
@@ -202,7 +302,15 @@
     width: 50%;
 }
 
-.carrer-card{
+.carrer-card p{
+    color: black;
+    line-height: 1.5 !important;
+    letter-spacing: 0 !important;
+    text-align: center;
+
+}
+
+.carrer-card {
     box-shadow: 1px 1px 12px #020001;
     transition: 0.8s;
 }
@@ -211,7 +319,7 @@
     box-shadow: 2px 2px 22px #19A7CE;
 }
 
-.carrer-content +p{
+.carrer-content+p {
     text-align: center;
     color: #141414;
     font-size: 18px;
@@ -256,5 +364,10 @@
     .head-img {
         width: 100%;
         margin-top: 20px;
+    }
+
+    .index2 {
+        align-items: center;
+        text-align: center;
     }
 }
