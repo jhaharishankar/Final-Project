@@ -151,6 +151,7 @@
 
 .itcnt h2,
 h3 {
+    color: #000;
     line-height: 35px;
     letter-spacing: 1px;
     word-spacing: 1px;
@@ -342,6 +343,7 @@ h3 {
 
     .navbar {
         background: #AFD3E2 !important;
+        
     }
 
     .head-img {
